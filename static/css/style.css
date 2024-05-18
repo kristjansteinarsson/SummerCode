@@ -1,0 +1,56 @@
+:root {
+    --shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    --scrollbar-bg: transparent;
+    --scrollbar-thumb: #ffd700;
+}
+
+body{
+    text-align: center;
+    font-family: "Varela Round", sans-serif;
+    background: linear-gradient(45deg, #ff7e5f, #feb47b);
+    margin: 0;
+    padding: 50px;
+    background-size: cover;
+    min-height: 100vh;
+    overflow-y: scroll;
+    overflow: overlay;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #feb47b;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--scrollbar-thumb);
+    border-radius: 10px;
+    border: 2px solid transparent;
+    box-shadow: var(--shadow);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #e6c507;
+}
+
+h1{
+    font-size: 60px;
+    background-color: white;
+    width: 30%;
+    margin: 20px auto;
+    padding: 1%;
+    border-radius: 15px;
+    box-shadow: var(--shadow);
+}
+
+.container{
+    display: block;
+    margin: 20px auto;
+    background-color: #a9e2ff;
+    width: 20%;
+    border-radius: 15px;
+    padding: 1%;
+    box-shadow: var(--shadow);
+}
