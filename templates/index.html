@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" href="{{ url_for('static', filename='images/SummerCode24.svg')}}" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
     <title>Summer Code</title>
 </head>
@@ -13,10 +14,10 @@
 
     <h1>Summer Code 2024</h1>
 
-    <div class="container">
-        <h2>Week 1</h2>
+    <div>
+        <h2>Week 1<br>Animation Tests</h2>
+        <a href="/weekOne"><img src="{{ url_for('static', filename='images/SpinningCircle.svg')}}"></a>
         <h3>18/5/2024 - 25/5/2024</h3>
-        <a href="/weekOne">Link</a>
     </div>
 
 </body>
