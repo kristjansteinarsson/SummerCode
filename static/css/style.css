@@ -58,7 +58,7 @@ div{
 div img{
     padding: 2%;
     width: 25%;
-    animation: spin 2s infinite linear, grow 2s infinite ease-in-out;
+    animation: spin 2s infinite linear, grow 2s infinite ;
     transition: background-color 0.2s;
     border-radius: 50%;
 }
